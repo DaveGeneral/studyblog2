@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/studyblog/',
+  base: '/studyblog2/',
   // 页面标题
   title: '乱舞春秋·Will',
   // 网页描述
