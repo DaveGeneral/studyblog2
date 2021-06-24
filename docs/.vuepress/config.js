@@ -66,7 +66,7 @@ module.exports = {
     editLinkText: '编辑此页',
     // 导航
     nav: [
-      { text: '小打卡工作沉淀',
+      { text: '工作沉淀',
         items: [
           { text: '推荐系统', link: '/小打卡工作沉淀/后端/系统介绍/推荐系统.md'}
           ]
