@@ -66,7 +66,11 @@ module.exports = {
     editLinkText: '编辑此页',
     // 导航
     nav: [
-      { text: '小打卡工作沉淀',link: '/小打卡工作沉淀/'},
+      { text: '小打卡工作沉淀',link: '/小打卡工作沉淀/',
+        items: [
+          { text: '推荐系统', link: '/小打卡工作沉淀/后端/系统介绍/推荐系统/推荐系统.md'}
+          ]
+      },
       { text: '书籍', items: [
           { text: '你不知道的JavaScript(上)', link: '/书籍/你不知道的javascript上'},
           { text: '你不知道的JavaScript(中)', link: '/书籍/你不知道的javascript中'},
