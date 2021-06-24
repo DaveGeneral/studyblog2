@@ -19,34 +19,34 @@ module.exports = {
     lastUpdated: '最后更新时间',
     // 所有页面自动生成侧边栏
     sidebar: {
-      '/tools4efficiency/各种常用命令/': [
+      '/效率提升实用工具箱/各种常用命令/': [
         'cmd-in-common-use'
       ],
-      '/tools4efficiency/各种配置/': [
+      '/效率提升实用工具箱/各种配置/': [
         'configure-in-common-use'
       ],
-      '/tools4efficiency/技术书籍Handbook/': [
+      '/效率提升实用工具箱/技术书籍Handbook/': [
         'handbook'
       ],
-      '/tools4efficiency/优秀博客/': [
+      '/效率提升实用工具箱/优秀博客/': [
         ''
       ],
-      '/research/OMR乐谱识别/moonlight/': [
+      '/科研/OMR乐谱识别/moonlight/': [
             '',
             'one',
             'two'
       ],
-      '/research/OMR乐谱识别/深度学习/': [
+      '/科研/OMR乐谱识别/深度学习/': [
         {
           title: 'LSTM+CTC',
-          collapsable: false,
+          collapsable: true,
           children: [
             'LSTM+CTC/'
           ]
         },
         {
           title: 'LSTM+CNN',
-          collapsable: false,
+          collapsable: true,
           children: [
               'LSTM+CNN/'
           ]
