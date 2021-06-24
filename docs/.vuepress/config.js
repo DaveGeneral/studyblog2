@@ -93,13 +93,13 @@ module.exports = {
           { text: '推荐系统', link: '/科研/推荐系统/'},
           { text: 'NLP', link: '/科研/NLP/'}
         ]},
-      { text: '生活·杂文',link: '/生活·杂文/'},
+      { text: '生活·杂文',link: '/vuepress/'},
   ]},
   configureWebpack: {
     resolve: {
       // 静态资源的别名
       alias: {
-        '@vuepress': '../images/生活·杂文',
+        '@vuepress': '../images/vuepress',
         '@vue': '../images/vue'
       }
     }

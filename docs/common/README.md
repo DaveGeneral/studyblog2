@@ -29,7 +29,7 @@ export default function sayHello () {
 ![不使用别名引用](~@vuepress/1.png)
 
 ### 使用别名引用
-![使用别名引用](../images/生活·杂文/1.png)
+![使用别名引用](../images/vuepress/1.png)
 
 ## 使用自定义样式
 ::: tip 提醒
