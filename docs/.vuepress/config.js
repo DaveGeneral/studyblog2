@@ -19,23 +19,25 @@ module.exports = {
     lastUpdated: '最后更新时间',
     // 所有页面自动生成侧边栏
     sidebar: {
-      '/效率提升实用工具箱/各种常用命令/': [
+      '/效率提升工具箱/各种常用命令/': [
         'cmd-in-common-use'
       ],
-      '/效率提升实用工具箱/各种配置/': [
+      '/效率提升工具箱/各种配置/': [
         'configure-in-common-use'
       ],
-      '/效率提升实用工具箱/技术书籍Handbook/': [
+      '/效率提升工具箱/技术书籍Handbook/': [
         'handbook'
       ],
-      '/效率提升实用工具箱/优秀博客/': [
+      '/效率提升工具箱/优秀博客/': [
         ''
       ],
+
       '/科研/OMR乐谱识别/moonlight/': [
             '',
             'one',
             'two'
       ],
+      /**三级目录下面*/
       '/科研/OMR乐谱识别/深度学习/': [
         {
           title: 'LSTM+CTC',
@@ -72,7 +74,7 @@ module.exports = {
         ]
       },
       { text: '数据结构和算法', link: '/数据结构和算法/'},
-      { text: '效率提升实用工具箱', items: [
+      { text: '效率提升工具箱', items: [
           { text: '频繁使用命令', link: '/效率提升工具箱/各种常用命令/cmd-in-common-use'},
           { text: '频繁使用配置', link: '/效率提升工具箱/各种配置/configure-in-common-use'},
           { text: '技术书籍handbook', link: '/效率提升工具箱/技术书籍handbook/handbook'},
@@ -93,7 +95,7 @@ module.exports = {
           { text: '推荐系统', link: '/科研/推荐系统/'},
           { text: 'NLP', link: '/科研/NLP/'}
         ]},
-      { text: '生活·杂文',link: '/vuepress/'},
+      { text: '生活·杂文',link: '/生活·杂文/'},
   ]},
   configureWebpack: {
     resolve: {
