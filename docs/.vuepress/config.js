@@ -65,42 +65,41 @@ module.exports = {
     // 导航
     nav: [
       { text: '小打卡工作沉淀',link: '/小打卡工作沉淀/'},
-      { text: '工作日常', items: [
-          { text: '你不知道的JavaScript(上)', link: '/books/你不知道的javascript上'},
-          { text: '你不知道的JavaScript(中)', link: '/books/你不知道的javascript中'},
-          { text: '你不知道的JavaScript(下)', link: '/books/你不知道的javascript下'}
+      { text: '书籍', items: [
+          { text: '你不知道的JavaScript(上)', link: '/书籍/你不知道的javascript上'},
+          { text: '你不知道的JavaScript(中)', link: '/书籍/你不知道的javascript中'},
+          { text: '你不知道的JavaScript(下)', link: '/书籍/你不知道的javascript下'}
         ]
       },
-      { text: '数据结构和算法', link: '/algorithm/'},
+      { text: '数据结构和算法', link: '/数据结构和算法/'},
       { text: '效率提升实用工具箱', items: [
-          { text: '频繁使用命令', link: '/tools4efficiency/各种常用命令/cmd-in-common-use'},
-          { text: '频繁使用配置', link: '/tools4efficiency/各种配置/configure-in-common-use'},
-          { text: '技术书籍handbook', link: '/tools4efficiency/技术书籍handbook/handbook'},
+          { text: '频繁使用命令', link: '/效率提升工具箱/各种常用命令/cmd-in-common-use'},
+          { text: '频繁使用配置', link: '/效率提升工具箱/各种配置/configure-in-common-use'},
+          { text: '技术书籍handbook', link: '/效率提升工具箱/技术书籍handbook/handbook'},
           { text: '优秀博客', link: '/tools4efficiency/优秀博客/'},
 
         ]
     },
       { text: '科研',
         items: [
-          { text: '目录', link: '/research/'},
-          { text: 'OMR乐谱识别',
-             text: 'OMR', link: '/research/OMR乐谱识别/'
+          { text: '目录', link: '/科研/'},
+          {text: 'OMR乐谱识别', link: '/科研/OMR乐谱识别/'
             // items: [
-            //   { text: 'OMR', link: '/research/OMR乐谱识别/'},
-            //   { text: 'moonlight', link: '/research/OMR乐谱识别/moonlight/'},
-            //   { text: '深度学习', link: '/research/OMR乐谱识别/深度学习/'},
+            //   { text: 'OMR', link: '/科研/OMR乐谱识别/'},
+            //   { text: 'moonlight', link: '/科研/OMR乐谱识别/moonlight/'},
+            //   { text: '深度学习', link: '/科研/OMR乐谱识别/深度学习/'},
             // ]
           },
-          { text: '推荐系统', link: '/research/推荐系统/'},
-          { text: 'NLP', link: '/research/NLP/'}
+          { text: '推荐系统', link: '/科研/推荐系统/'},
+          { text: 'NLP', link: '/科研/NLP/'}
         ]},
-      { text: '生活·杂文',link: '/vuepress/'},
+      { text: '生活·杂文',link: '/生活·杂文/'},
   ]},
   configureWebpack: {
     resolve: {
       // 静态资源的别名
       alias: {
-        '@vuepress': '../images/vuepress',
+        '@vuepress': '../images/生活·杂文',
         '@vue': '../images/vue'
       }
     }

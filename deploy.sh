@@ -7,7 +7,7 @@ set -e
 yarn docs:build
 
 # 进入生成的文件夹
-cd docs/.vuepress/dist
+cd docs/.生活·杂文/dist
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
