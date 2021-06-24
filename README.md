@@ -5,9 +5,9 @@
 ## 配置截图
 
 ### 首页
-![首页](docs/images/vuepress/2.png)
+![首页](docs/images/生活·杂文/2.png)
 ### 基础配置效果
-![首页](docs/images/vuepress/3.png)
+![首页](docs/images/生活·杂文/3.png)
 ## 目录
 ```js
 |-- docs
